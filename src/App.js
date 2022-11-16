@@ -10,8 +10,8 @@ function App() {
   const [tarotID, setTarotID] = useState(1);
 
   function randomizeTarot(){
-    setTarotNum(Math.floor((Math.random() * 11)))
-    setTarotID((Math.floor((Math.random() * 11)))+'.jpg')
+    setTarotNum(Math.floor((Math.random() * 78)))
+    // setTarotID((Math.floor((Math.random() * 11)))+'.jpg')
     console.log(tarotNum)
     console.log(tarotData[tarotNum])
     console.log(tarotID)
@@ -24,7 +24,8 @@ function App() {
       <button onClick={randomizeTarot} class="readingbutton"> Generate </button>
       <p>{tarotNum}</p>
       <p>{tarotData[tarotNum].name}</p>
-      <img src={`/images/${tarotID}`} alt="tarot card"></img>
+      {/* <img src={`/images/${tarotID}`} alt="tarot card"></img> */}
+      <img class="tarotImage" src={`/images/${tarotNum}.jpg`}></img>
     </div>
   );
 }
