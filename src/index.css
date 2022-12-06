@@ -12,16 +12,25 @@ code {
     monospace;
 }
 
+.maindiv{
+  background-color: grey;
+  height: 600px;
+}
+
 .tarotImage{
-  width:300px;
+  width: 200px;
   display:block;
   justify-content: center;
   margin: 10px 10px 10px 10px;
+  float: left;
 }
 
-/* .App{
-  width: 100%;
-  height: 100%;
-  background-color: black;
-} */
+.tarotBackImage{
+  width: 200px;
+  float:left;
+  display: block;
+  margin: 10px;
+}
+
+
 

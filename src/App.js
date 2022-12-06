@@ -16,14 +16,14 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="maindiv">
       <header className="App-header">
       </header>
       <button onClick={randomizeTarot} class="readingbutton"> Generate </button>
       <p>{tarotNum}</p>
       <p>{tarotData[tarotNum].name}</p>
-      {/* <img src={`/images/${tarotID}`} alt="tarot card"></img> */}
       <img class="tarotImage" src={`/images/${tarotNum}.jpg`}></img>
+      <img class="tarotBackImage" src='images/card-back.jpg' />
     </div>
   );
 }
