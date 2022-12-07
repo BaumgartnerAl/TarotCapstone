@@ -32,5 +32,25 @@ code {
   margin: 10px;
 }
 
+h1{
+  font-family: mokoko, serif;
+}
+
+p{
+  font-family: mokoko, serif;
+}
+
+.cardDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.meaningdiv{
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+
 
 

@@ -17,13 +17,20 @@ function App() {
 
   return (
     <div className="maindiv">
+      <head>
+      <link rel="stylesheet" href="https://use.typekit.net/tyr3asx.css" />
+      </head>
       <header className="App-header">
       </header>
       <button onClick={randomizeTarot} class="readingbutton"> Generate </button>
-      <p>{tarotNum}</p>
-      <p>{tarotData[tarotNum].name}</p>
-      <img class="tarotImage" src={`/images/${tarotNum}.jpg`}></img>
-      <img class="tarotBackImage" src='images/card-back.jpg' />
+      <h1>{tarotData[tarotNum].name}</h1>
+      <div className="cardDiv">
+        <img class="tarotImage" src={`/images/${tarotNum}.jpg`}></img>
+        <img class="tarotBackImage" src='images/card-back.jpg' />
+      </div>
+      <div className="meaningdiv">
+        <p>{tarotData[tarotNum].meaning}</p>
+      </div>
     </div>
   );
 }
