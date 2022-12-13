@@ -5,3 +5,134 @@
 .tarotImage{
   max-width: 200px;
 }
+
+header{
+  height: 100px;
+}
+
+nav{
+  float: right;
+  margin-right: 100px;
+}
+
+nav ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  font-size: 2.5em;
+  margin-left: 30px;
+  font-family: mokoko, serif;
+  width: 250px;
+  text-align: center;
+  display:inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover{
+  background-color: white;
+}
+
+h1{
+  font-size: 4em;
+  text-align: center;
+  margin: 0px;
+}
+
+body{
+  background-color: grey;
+  font-family: mokoko, serif;
+}
+
+.tarotBackImage{
+  width: 16%;
+  display: block;
+  margin: 3px auto;
+  justify-content: center;
+}
+
+.imgDiv{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutDiv{
+  width: 60%;
+  margin: auto;
+}
+
+.aboutDiv p{
+  font-size: 1.3em;
+  line-height: 1.6em;;
+}
+
+button{
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+button:hover{
+  background-color: #575757;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.buttonDiv{
+  display: flex;
+}
+
+.cardDiv{
+  display: flex;
+  margin: 10px auto;
+  justify-content:center ;
+}
+
+.tarotImage{
+  margin: 10px;
+} 
+
+.meaningDiv{
+  width: 600px;
+  margin: auto;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.meaningDiv h4{
+  padding: 0px;
+  margin: 2px;
+  text-align: center;
+}
+
+.galImage{
+  width: 100%;
+}
+
+.galleryLi{
+  list-style: none;
+  width: 9%;
+  margin: auto;
+  padding: 2px;
+}
+
+.galleryUl{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
